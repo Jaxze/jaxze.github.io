@@ -24,20 +24,12 @@
 	height:100%;
 	z-index:-1;
 	}
-	@mixin vertical-align($position: relative) {
-	 position: $position;
-	 top: 50%;
-	 -webkit-transform: translateY(-50%);
-	 -ms-transform: translateY(-50%);
-	 transform: translateY(-50%);
-	}
-	.vertical {
-	   @include vertical-align();
-	}
 	body {
 	 margin: 0;
 	 padding: 0;
 	 overflow: hidden;
+	 background-color: #fff;
+	 text-align: center;
 	}
 	@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&subset=latin-ext');
 	* {
@@ -50,11 +42,6 @@
 	 width: 230px;
 	 margin: 25%px;
 	}
-	body {
-	 background-color: #fff;
-	 text-align: center;
-	}
-
 	.btn {
 	 position:relative;
 	 vertical-align: middle;
@@ -107,7 +94,6 @@
 	</style>
 </head>
 <body>
-	<canvas id="canvas"></canvas><br>
 	<div class="element">
 		<div class='btn btn-hover' id="demo01" style="font-weight:900; color: orange" href="#animatedModal"><br>
 			<b>JAXZE</b>
@@ -468,5 +454,6 @@
                 }
                 scrollMSG();
 	</script>
+	<canvas id="canvas"></canvas>
 </body>
 </html>
