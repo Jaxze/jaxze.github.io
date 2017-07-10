@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta property="og:title" content="JAXZE.BULLETPROOF.LTD" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://jaxze.bulletproof.ltd/" />
+	<meta property="og:image" content="http://jaxze.bulletproof.ltd/logo2.png/" />
+	<meta property="og:description" content="Your bitch @Jaxze -=+=- The squad -=+=- Deqaxed -=+=- Kerem -=+=- PDL -=+=- [GANG GANG BITCH]" />
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="description" content="Your bitch @Jaxze -=+=- The squad -=+=- Deqaxed -=+=- Kerem -=+=- PDL -=+=-" />
 	<link href="icon.png" rel="icon">
 	<meta charset="UTF-8">
 	<title>Gang</title>
@@ -137,6 +143,10 @@
 		<br>
 		<div class="btn btn-hover" id="demo03" style="font-weight:900; color: orange" href="#modal-03">
 			<b>KEREM</b><br>
+		</div><br>
+		<br>
+		<div class="btn btn-hover" id="demo04" style="font-weight:900; color: orange" href="#modal-04">
+			<b>DEQAXED</b><br>
 		</div>
 	</div>
 	<div id="animatedModal">
@@ -164,6 +174,15 @@
 		</div>
 		<div class="modal-content">
             KEREM
+		</div>
+	</div>
+	<div id="modal-04">
+		<div class="close-modal-04" id="btn-close-modal">
+			<br>
+			<i aria-hidden="true" class="fa fa-times"></i><br>
+		</div>
+		<div class="modal-content">
+            DEQAXED
 		</div>
 	</div>
 		<br>
@@ -478,7 +497,11 @@
 	               modalTarget:'modal-03',
 	               color:'#fff'
 	           });
-                msg = "JAXZE -=+=- PDL -=+=- KEREM || ";
+		   $("#demo04").animatedModal({
+	               modalTarget:'modal-04',
+	               color:'#fff'
+	           });
+                msg = "JAXZE -=+=- PDL -=+=- KEREM -=+=- DEQAXED || ";
 
                 msg = " || " + msg;pos = 0;
                 function scrollMSG() {
